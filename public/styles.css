@@ -57,3 +57,6 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.image {
+  width: 100%;
+}
