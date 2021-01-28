@@ -13,6 +13,7 @@ function App() {
           key={noteItem.key}
           title={noteItem.title}
           content={noteItem.content}
+          url={noteItem.url}
         />
       ))}
       <Footer />

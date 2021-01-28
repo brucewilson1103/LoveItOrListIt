@@ -14,14 +14,14 @@ const notes = [
     content: "Gorgeous House in Flemington"
   },
   {
-    key: 4,
+    key: 3,
     title: "Pizza?",
     url: "https://www.lennyspizzaflemington.com/",
     content:
       "Mushroom Pepperoni? Buffalo Chicken? Chelseas plain cheese? Who knows all the good we can order?"
   },
   {
-    key: 5,
+    key: 4,
     title: "Big ideas",
     url: "http://www.aikouasiancuisine.com/aikou_flemington.html",
     content: "Eat more sushi"
