@@ -15,6 +15,7 @@ function App() {
           content={noteItem.content}
           url={noteItem.url}
           image={noteItem.image}
+          price={noteItem.price}
         />
       ))}
       <Footer />
