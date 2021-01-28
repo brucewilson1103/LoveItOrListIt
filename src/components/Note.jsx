@@ -4,6 +4,7 @@ function Note(props) {
   return (
     <div className="note">
       <h1>{props.title}</h1>
+      <img src={props.image} alt="house location" />
       <p>{props.content}</p>
       <a href={props.url}>Website</a>
     </div>

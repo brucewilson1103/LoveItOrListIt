@@ -14,6 +14,7 @@ function App() {
           title={noteItem.title}
           content={noteItem.content}
           url={noteItem.url}
+          image={noteItem.image}
         />
       ))}
       <Footer />
