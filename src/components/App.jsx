@@ -21,7 +21,7 @@ function App() {
           price={noteItem.price}
         />
       ))}
-      <Form isRegistered={userIsRegistered} />
+      {/* <Form isRegistered={userIsRegistered} /> */}
 
       <Footer />
     </div>
