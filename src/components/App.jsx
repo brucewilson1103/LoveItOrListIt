@@ -3,6 +3,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import notes from "../note";
+import Form from "./Form";
+// import login from "./Login";
+var userIsRegistered = false;
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
           price={noteItem.price}
         />
       ))}
+      <Form isRegistered={userIsRegistered} />
+
       <Footer />
     </div>
   );
